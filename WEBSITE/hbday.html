@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;  
+    background-color: #bbe0f2;
+    background-image: url(1ed3da64ba4e2ddeec752d1f0883e285.png);
+    background-repeat: repeat-x;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: 300px
+}
+#box1{
+    background-color:#fab3c2 ;
+    border-style: solid;
+    height: 600px;
+    width: 350px;
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 20px;
+    border-color: #fab3c2;
+    box-shadow: 0 10px 30px #fefbba;
+    
+        
+}
+h1{
+    color: #5a84f7;
+    position: relative;  
+    margin-bottom: 90px;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    font-family: 'Marck Script' , cursive; 
+    font-size: 3.5rem;
+    text-shadow: 3px 3px 10px #fefbba;
+    
+}
+.cake{
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    
+}
+p{
+    font-family: 'Marck Script' ;
+    text-align: center;
+    font-size: 1.25rem;
+    color: black;
+  
+}
+img{
+    width: 100px;
+    display: flex;
+    animation-name: falltop;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.28,-1.48,0.54,2.21);
+}
+@keyframes falltop{
+    0%{
+        transform: translateY(-10px) rotate(0deg);
+        opacity: 1;
+    }
+}
+  </style>
+  <link rel="stylesheet" href="bday.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <title>Greeting</title>
+  
+  <div id="box1">
+    <h1>Happy Birthday, ????</h1>
+    <div class="cake" role="img" aria-label="Birthday Cake">🎂</div>
+    <p>Wishing you a best life and lot of cake!</p>
+    
+    <img src="1ed3da64ba4e2ddeec752d1f0883e285.png" alt="">
+  </div>
+
+  
+  
+
+</body>
+</html>
